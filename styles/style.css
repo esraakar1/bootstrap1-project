@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar{
+    background-image: linear-gradient(to right, #b95dc7, #41095d);
+    padding: 0 !important;
+}
+
+.navbar-brand img{
+    height: 60px;
+    padding-left: 50px;
+}
+
+.navbar-nav{
+    float: right;
+}
+
+.navbar-nav .nav-link{
+    font-weight: bold;
+}
+
+.fa-bars{
+    color: #ffff;
+    font-size: 30px;
+}
+
+/* BANNER ALANI */
+
+#banner{
+    background-image: linear-gradient(to right , #b95dc7, #41095d);
+    color: #fff;
+    padding-top: 5%;
+}
+
+.btn{
+    width: 70px;
+    margin: 20px;
+}
+
+#banner a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+    transform: translateY(-60px);
+}
+
+.title::before{
+    content: "";
+    background-color: #7b1798;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(64px);
+}
+
+.title::after{
+    content: "";
+    background-color: #7b1798;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(8px);
+}
+
+.bottom-img{
+    width: 100%;
+}
+
+.row{
+    align-items: center;
+}
+
+.home-img{
+    width: 100%;
+}
+
+/* services alanı */
+
+#services{
+    padding: 80px 0;
+}
+
+#services h4{   
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.service-img{
+    width: 100px;
+}
+
+#services .btn-service{
+    box-shadow: none;
+    padding: 10px 20px;
+    background-image: linear-gradient(to right , #b95dc7, #41095d);
+    border-radius: 20px;
+    border: none;
+    width: auto;
+    color: #fff;
+}
+
+#btn-wrapper{
+    text-align: center;
+}
+
+/* about us alanı */
+
+#about-us{
+    padding-top: 50px;
+    padding-bottom: 55px;
+    background-color: #f8f9fa;
+}
+
+.about-title{
+   font-size: 30px;
+   font-weight: 500;
+}
+
+#about-us ul{
+    text-transform: capitalize;
+    margin-left: 20px;
+}
+
+.about-img{
+    width: 100%;
+}
+
+/* CUSTOMERS ALANI */
+
+#customers{
+    margin: 100px 0;
+}
+
+.customers{
+    border-left:#7b1798  solid 5px;
+}
+
+#customers img{
+    width: 100px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.customer-box{
+    gap: 60px;
+}
+
+#customers h6{
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+#customers h5{
+    font-size: 13px;
+    font-weight: 400;
+}
+
+/* social media alanı */
+
+#social-media{
+    background-color: #f8f9fa;
+    padding: 100px 0;
+}
+
+.social-icons img{
+  width: 60px;
+  transition: all 0.5s;
+}
+
+.social-icons{
+    text-align: center;
+}
+
+.social-icons a{
+    text-decoration: none;
+}
+
+.social-icons a:hover img{
+    transform: translateY(-10px);
+}
+
+/* footer alanı */
+
+#footer{
+    background-image: linear-gradient(to right, #b95dc7, #41095d);
+    color: #f8f9fa;
+}
+
+.footer-img{
+    width: 100px;
+}
+
+.image{
+    width: 100%;
+}
+
+.footer-box{
+    align-items: start;
+    margin-top: 100px;
+    gap: 0px;
+}
+
+.icon{
+    background-image: linear-gradient(to right, #b95dc7, #41095d);
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    border-radius: 3px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 30px;
+    width: 50px;
+}
+
+.input{
+   padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 200px;
+    margin-top: 20px;
+}
+
+.button{
+    background-image: linear-gradient(to right, #b95dc7, #41095d);
+    padding: 10px;
+    border-radius: 5px;
+    border: solid;
+    width: 100px;
+   margin-top: 10px;
+    
+}
+
+.copyright{
+    
+}
+

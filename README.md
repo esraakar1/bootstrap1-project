@@ -1,4 +1,4 @@
-# bootstrap1-project
+# udemig-education
 
 #Ekran Kaydı
 
